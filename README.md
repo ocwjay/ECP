@@ -1,3 +1,4 @@
+![Logo](img/Logo/PNG/logoBlack.png?raw=true "ECP Logo")
 # ECP
 ECP is a portfolio page helper for the lazy developer.
 <br />
@@ -11,6 +12,8 @@ ECP allows developers to create a portfolio page with the absolute minimum code 
 Soon, a website providing a demonstration of ECP and even a playground to see its full potential will be launched, and the link will be posted here.<br /> <br />
 AN IMPORTANT UPDATE: The next version of ECP will allow the end user to click on the portfolio card and they will be sent to another page with more information about a project. Currently, this is not implemented in any way, because I'm trying to think of how I want to go about it.
 <br />
+# Using ECP
+ECP is free to use and customize for everyone. I'd really prefer some credit though, and I've uploaded logos for ECP in the image folder for use in your projects. I also have a patreon <a href="https://www.patreon.com/ocwjay">here<a/> you can contribute to if you really enjoyed this project.
 # Instructions and Documentation
 ECP is SUPER EASY to use. And I'm not saying that lightly. You're going to use a fraction of the code you normally would.<br /><br />
 Getting started:<br />
