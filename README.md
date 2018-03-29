@@ -13,7 +13,10 @@ Soon, a website providing a demonstration of ECP and even a playground to see it
 New features and upcoming updates:<br />
 - Choose to use links to pages, links to open a frame, or no links at all. (Currently, all cards are clickable.)
 - Choice for manual image resizing with card size, or automatic resizing. (Auto will look good, but we all have different design choices.)
-- Fixes for long titles changing where the title is positioned on the card. (Small bug, to avoid this for now, use short titles or wider cards.)<br /><br />
+- Option to have rounded corners
+- Option to have the shadow to the left or the right of the card (currently falls to the right)
+- In the **_far_** future, I will be working on a tool to make using ECP even faster with an interface where you select the attributes you want (default options, that is. You'll still have to go in and make certain changes - I'm not psychic) and it will generate the code for you to copy and paste. 
+<br /><br />
 # Using ECP
 ECP is free to use and customize for everyone. I'd really prefer some credit though, and I've uploaded logos for ECP in the image folder for use in your projects. I also have a patreon <a href="https://www.patreon.com/ocwjay">here<a/> you can contribute to if you really enjoyed this project.
 # Instructions and Documentation
@@ -46,5 +49,4 @@ To type the items correctly, you'll need to type in the title name for item 1, t
 ```
 <br />
 That's literally it. ECP will do the rest for you and create 3 cards that are clickable with the image of your choice under each title. Notice how there's no comma at the end of the last image source though. That's very !important! If you accidentally add a comma there, the image will not show. <br /><br />
-Customizations can be done to the code pretty simply. If you want to change anything, the cards have the class `"portfolioCard"`. Things you may want to change for this element are the background color, the width, and the height. Don't worry, ECP can accept any width and height you want to give it (within reason). The titles on the cards have the `"cardTitle"` class, and you may want to change the background color, the width, the font color, and the font family. You know. All that font stuff. <br /><br />
-That's pretty much it for the usage of ECP. I hope you get as much usability out of it as possible.
+Customizations are simple. There's comments to explain everything in the source code, so it's super easy to see what you can do with your own css. 
