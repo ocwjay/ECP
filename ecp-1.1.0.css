@@ -1,43 +1,43 @@
 body {
-  margin: 0; /*You can change this if need be, but this is standard, so I've went ahead and put this here.*/
+  margin: 0; /*You can change this if need be, but this is standard, so I've went ahead and put this here*/
 }
 
-#portfolioWrapper {
-  width: 100%;
-  min-height: 200px;
-  padding-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+#portfolioWrapper { /*This changes the styles within the wrapper element that holds the portfolio together*/
+  width: 100%; /*You may want to change this for your site, but as a default, it fits the parent as custom styles allow*/
+  min-height: 200px; /*minimum height fits one row of cards in it and grows with the overflow wrap*/
+  padding-bottom: 10px; /*This is just for nice spacing across elements. This is changeable for your own personal needs*/
+  display: flex; /*THIS IS IMPORTANT. Only change this is you have a very specific idea of what you want to do*/
+  flex-direction: row; /*Makes the cards line up in a row*/
+  flex-wrap: wrap; /*Overflow allows the cards to wrap inside the wrapper, that way the cards fit themselves on the screen as need be*/
+  justify-content: center; /*I mean, I guess you could change this, but it looks good like this in my opinion*/
 }
 
 .portfolioCard {
-  height: 200px;
-  width: 200px;
-  margin: 25px auto 0 auto;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 200px; /*Absolutely customizable. Future updates will allow an option for images to resize with the card*/
+  width: 200px; /*Same as height, customizable, and being worked on for future updates*/
+  margin: 25px auto 0 auto; /*All this does is set the side margins to auto, so the cards fit themselves in nicely, and allows 25px between cards on the top*/
+  text-decoration: none; /*You can change this, I guess*/
+  display: flex; /*Important for fitting the elements on the inside of the card in an attractive way*/
+  flex-direction: column; /*I mean if you want your title to the left of the image, then you can change this. Hmm that might be a neat future feature.*/
+  justify-content: center; /*Again, I like centered elements, personally*/
 }
 
 .cardTitle{
-  margin: 5px auto;
+  margin: 5px auto; /*Just some styling for the fit inside of the card. Customizable.*/
 }
 
 .cardImage {
-  background-position: center;
-  background-size: cover;
-  height: 150px;
-  width: 180px;
-  margin: 5px auto;
+  background-position: center; /*I guarantee you don't want to change this.*/
+  background-size: cover; /*Change this at will, as your styling sees fit*/
+  height: 150px; /*Customizable, future feature will include a manual size option and an auto size option*/
+  width: 180px; /*Same as height, custom, future feature in progress*/
+  margin: 5px auto;/*Customizable styling to fit the image in the card*/
 }
 
 #portfolioItems {
-  display: none; /*We don't want this to be seen*/
+  display: none; /*We don't want this to be seen. I mean, I guess you could allow it to be seen but it would probably look super ugly*/
 }
 
 .cardShadow {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); /*Change your shadow styling at will. Optional class*/
 }
